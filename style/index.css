@@ -48,3 +48,63 @@ table {
 
 /* CSS styling begins here */
 
+html{
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    border: 2px solid black;
+}
+
+nav{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    width: 50%;
+    margin-left: 3%;
+}
+
+.navbuttons{
+    display: flex;
+}
+
+.container1{
+    width: 80%;
+    text-align: center;
+}
+
+h2{
+    font-size: 
+}
+
+.container2{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 div{
+    width: 30%;
+}
+
+footer{
+    height: 10vh;
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a button{
+    font-size: 2rem;
+}
